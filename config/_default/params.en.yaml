@@ -34,6 +34,9 @@ home:
         enable: true
         paginate: 6
 
+footer:
+    license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
+
 timeAgo:
     enable: true
     lang: en
