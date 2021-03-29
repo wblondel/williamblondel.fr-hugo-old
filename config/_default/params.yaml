@@ -1,0 +1,101 @@
+# uBlogger theme version
+version: "2.0.X"
+
+# site default theme ("light", "dark", "auto")
+defaultTheme: "auto"
+
+#public git repo url only when enableGitInfo is true
+gitRepo: "https://github.com/wblondel/williamblondel.fr"
+
+# ("sha256", "sha384", "sha512", "md5")
+fingerprint: "sha512"
+
+# date format
+# TODO: Multilang
+dateFormat: "2006-01-02"
+    
+search:
+    enable: true
+    type: "lunr"
+    contentLength: 4000
+    placeholder: ""
+    maxResultLength: 10
+    snippetLength: 30
+    highlightTag: "em"
+    absoluteURL: false
+    
+header:
+    desktopMode: "fixed"
+    mobileMode: "auto"
+    
+    title:
+        logo: ""
+        name: "Blog de William Blondel"
+        pre: ""
+        post: ""
+
+footer:
+    enable: true
+    custom: ''
+    hugo: true
+    copyright: true
+    author: true
+    since: 2021
+    license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
+        
+        
+# Section (all posts) page config
+section:
+    paginate: 20
+    dateFormat: "01-02"
+    rss: 10 # number of posts in RSS feed
+
+list:
+    paginate: 20
+    dateFormat: "01-02"
+    rss: 10
+
+social:
+    Github: wblondel
+    LinkedIn: wgblondel
+    Twitter: wgblondel
+    Instagram: wgblondel
+    Telegram: wblondel
+    Reddit: wblondel
+    Spotify: william78
+    Steam: wgblondel
+    Skype: w.blondel
+    RSS: true
+    
+page:
+    theme: classic
+    hiddenFromeHomePage: false
+    hiddenFromSearch: false
+    hiddenFeatureImage: false
+    twemoji: false
+    lightgallery: false
+    ruby: true
+    fraction: true
+    fontawesome: true
+    linkToMarkdown: true
+    rssFullText: false
+    
+    math:
+        enable: true
+        copyTex: true
+        mhchem: true
+    
+    code:
+        copy: true
+        maxShownLines: 10
+        
+    share:
+        enable: true
+        Twitter: true
+        Facebook: true
+        Evernote: true
+
+    
+compatibility:
+    polyfill: true
+    objectFit: true

@@ -1,0 +1,13 @@
+fr:
+    title: Blog de William Blondel
+    weight: 1
+    languageName: Français
+    author:
+        name: "williamblondel.fr"
+    
+en:
+    title: Blog of William Blondel
+    weight: 2
+    languageName: English
+    author:
+        name: "williamblondel.en"

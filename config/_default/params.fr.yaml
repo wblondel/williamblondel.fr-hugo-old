@@ -1,0 +1,39 @@
+description: "Bienvenue sur mon blog"
+keywords: ["développement web", "administration système", "généalogie"]
+
+app:
+    title: "Blog de William Blondel"
+    noFavicon: false
+    svgFavicon: ""
+    themeColor: "#ffffff"
+    iconColor: "#5bbad5"
+    tileColor: "#da532c"
+
+header:
+    desktopMode: "fixed"
+    mobileMode: "auto"
+    
+    title:
+        logo: ""
+        name: "Blog de William Blondel"
+        pre: ""
+        post: ""
+
+home:
+    rss: 10
+    
+    profile:
+        enable: true
+        title: "Blog de William Blondel"
+        subtitle: "Ceci est mon nouveau site Hugo"
+        gravatarEmail: "contact@williamblondel.fr"
+        social: true
+        disclaimer: ""
+    
+    posts:
+        enable: true
+        paginate: 6
+
+timeAgo:
+    enable: true
+    lang: fr

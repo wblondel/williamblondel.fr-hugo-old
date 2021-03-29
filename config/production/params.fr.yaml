@@ -1,0 +1,10 @@
+comment:
+    enable: true
+    
+    remark42:
+        enable: true
+        host: https://remark.williamblondel.fr
+        site: williamblondelfr
+        theme: light
+        locale: fr
+        emailSubscribe: false
