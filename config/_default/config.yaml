@@ -1,5 +1,5 @@
 baseURL: "https://williamblondel.fr/"
-theme: uBlogger
+theme: ublogger
 
 defaultContentLanguage: fr
 languageCode: fr
