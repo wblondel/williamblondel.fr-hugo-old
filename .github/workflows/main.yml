@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Read .env
+        id: hugo-version
+        run: |
+          . ./.env
+          echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
+          
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '${{ steps.hugo-version.outputs.HUGO_VERSION }}'
+          extended: true
+          
+      - uses: actions/cache@v2
+        with:
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - name: Build
+        run: hugo -e production
+      
+      - name: Push to server - Deploy
+        uses: x-actions/gh-pages@release/v1
+        env:
+          GITHUB_EMAIL: "contact@williamblondel.fr"
+          GITHUB_USERNAME: ${{ secrets.USERNAME }}
+          PUBLISH_REPO: https://${{ secrets.USERNAME }}:${{ secrets.PASSWORD }}@williamblondel.fr/plesk-git/williamblondel.git
+          PUBLISH_BRANCH: master
+          PUBLISH_DIR: ./
+
+      
