@@ -81,9 +81,7 @@ page:
     rssFullText: false
     
     math:
-        enable: true
-        copyTex: true
-        mhchem: true
+        enable: false
     
     code:
         copy: true
