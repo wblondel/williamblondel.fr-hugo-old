@@ -24,8 +24,8 @@ home:
     
     profile:
         enable: true
-        title: "Blog of William Blondel"
-        subtitle: "This is my new Hugo website"
+        title: "William G. Blondel"
+        subtitle: "Born geek with an Amstrad CPC 6128. Web developer, system administrator, and amateur genealogist."
         gravatarEmail: "contact@williamblondel.fr"
         social: true
         disclaimer: ""
