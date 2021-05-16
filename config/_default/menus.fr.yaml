@@ -1,22 +1,22 @@
 main:
 - name: Articles
-  identifier: Articles
+  identifier: articles
   pre: ""
   post: ""
   url: "/posts/"
   title: ""
   weight: 1
-- name: Tags
-  identifier: tags
-  pre: ""
-  post: ""
-  url: "/tags/"
-  title: ""
-  weight: 2
 - name: Catégories
   identifier: categories
   pre: ""
   post: ""
   url: "/categories/"
+  title: ""
+  weight: 2
+- name: Tags
+  identifier: tags
+  pre: ""
+  post: ""
+  url: "/tags/"
   title: ""
   weight: 3

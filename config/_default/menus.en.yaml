@@ -6,17 +6,17 @@ main:
   url: "/posts/"
   title: ""
   weight: 1
-- name: Tags
-  identifier: tags
-  pre: ""
-  post: ""
-  url: "/tags/"
-  title: ""
-  weight: 2
 - name: Categories
   identifier: categories
   pre: ""
   post: ""
   url: "/categories/"
+  title: ""
+  weight: 2
+- name: Tags
+  identifier: tags
+  pre: ""
+  post: ""
+  url: "/tags/"
   title: ""
   weight: 3
