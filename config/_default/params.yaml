@@ -42,8 +42,7 @@ footer:
     author: true
     since: 2021
     license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
-        
-        
+
 # Section (all posts) page config
 section:
     paginate: 20
@@ -64,15 +63,15 @@ social:
     Reddit: wblondel
     Spotify: william78
     Steam: wgblondel
-    Skype: w.blondel
+    #Skype: w.blondel
     RSS: true
     
 page:
     theme: classic
-    hiddenFromeHomePage: false
+    hiddenFromHomePage: false
     hiddenFromSearch: false
     hiddenFeatureImage: false
-    twemoji: false
+    twemoji: true
     lightgallery: false
     ruby: true
     fraction: true
@@ -92,7 +91,6 @@ page:
         Twitter: true
         Facebook: true
         Evernote: true
-
     
 compatibility:
     polyfill: true
