@@ -44,6 +44,6 @@ That's now a thing!
 
 On this blog, you will find guides, tutorials, and various articles about web development, system administration, security, and genealogy. This way, my blog will also by my personal Wikipedia, my own knowledge database. I will no longer need to look 20 times for a solution for the same problem :joy:!
 
-When I will be able to travel again, I'll write about my adventures here. In 2020, I was supposed to move to the Philippines, but the COVID-19 pandemic decided otherwise :pensive:. As of now, the Philippines aren't considering reopening their borders to tourists.
+When I will be able to travel again, I will write about my adventures here. In 2020, I was supposed to move to the Philippines, but the COVID-19 pandemic decided otherwise :pensive:. As of now, the Philippines aren't considering reopening their borders to tourists.
 
 See you in the next post :grin:!
