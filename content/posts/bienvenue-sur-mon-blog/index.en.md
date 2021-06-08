@@ -6,7 +6,7 @@ date: 2021-05-19T01:10:10+02:00
 lastmod: 2021-05-19T01:10:10+02:00
 draft: false
 author: "williamblondel.en"
-description: ""
+description: "I finally created my blog! Let me tell you quickly what I'll talk about on it."
 
 theme: "wide"
 

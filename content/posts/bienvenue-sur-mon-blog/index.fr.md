@@ -5,7 +5,7 @@ date: 2021-05-19T01:10:10+02:00
 lastmod: 2021-05-19T01:10:10+02:00
 draft: false
 author: "williamblondel.fr"
-description: ""
+description: "Ça y est, j'ai créé mon blog ! Je vous explique rapidement de quels sujets je vais traiter."
 
 theme: "wide"
 
