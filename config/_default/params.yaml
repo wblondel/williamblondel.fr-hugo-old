@@ -100,4 +100,4 @@ analytics:
     enable: false
 
     google:
-        anonymizeIP: 
+        anonymizeIP: true
