@@ -95,3 +95,9 @@ page:
 compatibility:
     polyfill: true
     objectFit: true
+
+analytics:
+    enable: false
+
+    google:
+        anonymizeIP: 

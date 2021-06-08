@@ -1,7 +1,5 @@
 disqus:
     disable: true
-googleAnalytics:
-    disable: true
 twitter:
     enableDNT: true
 vimeo:
