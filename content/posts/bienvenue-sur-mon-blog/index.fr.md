@@ -24,8 +24,6 @@ resources:
 - name: featured-image-preview
   src: featured-image-preview.jpg
 
-images: [""]
-
 toc:
   enable: false
 
