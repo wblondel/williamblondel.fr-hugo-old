@@ -6,7 +6,7 @@
 version: "2.0.X"
 
 # site default theme ("light", "dark", "auto")
-defaultTheme: "auto"
+defaultTheme: "dark"
 
 #public git repo url only when enableGitInfo is true
 gitRepo: "https://github.com/wblondel/williamblondel.fr"
