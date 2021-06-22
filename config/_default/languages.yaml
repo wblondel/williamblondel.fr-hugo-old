@@ -2,6 +2,7 @@ fr:
     title: Blog de William Blondel
     weight: 1
     languageName: Français
+    languageCode: fr
     author:
         name: "williamblondel.fr"
     
@@ -9,5 +10,6 @@ en:
     title: Blog of William Blondel
     weight: 2
     languageName: English
+    languageCode: en
     author:
         name: "williamblondel.en"

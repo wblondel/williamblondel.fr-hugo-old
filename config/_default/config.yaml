@@ -2,7 +2,6 @@ baseURL: "https://williamblondel.fr/"
 theme: uBlogger
 
 defaultContentLanguage: fr
-languageCode: fr
 
 enableRobotsTXT: true
 #enableGitInfo: true
