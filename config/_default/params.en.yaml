@@ -9,6 +9,15 @@ app:
     iconColor: "#5bbad5"
     tileColor: "#da532c"
 
+footer:
+    enable: true
+    custom: ''
+    hugo: true
+    copyright: true
+    author: true
+    since: 2021
+    license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
+
 header:
     desktopMode: "fixed"
     mobileMode: "auto"
@@ -33,9 +42,6 @@ home:
     posts:
         enable: true
         paginate: 6
-
-footer:
-    license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
 
 timeAgo:
     enable: true

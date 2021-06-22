@@ -1,3 +1,7 @@
+# If a config block has at least one setting that changes depending on the
+# current language, the whole block is in the corresponding config file
+# (ie params.en.yaml)
+
 # uBlogger theme version
 version: "2.0.X"
 
@@ -13,59 +17,22 @@ fingerprint: "sha512"
 # date format
 # TODO: Multilang
 dateFormat: "2006-01-02"
-    
-search:
-    enable: true
-    type: "lunr"
-    contentLength: 4000
-    placeholder: ""
-    maxResultLength: 10
-    snippetLength: 30
-    highlightTag: "em"
-    absoluteURL: false
-    
-header:
-    desktopMode: "fixed"
-    mobileMode: "auto"
-    
-    title:
-        logo: ""
-        name: "Blog de William Blondel"
-        pre: ""
-        post: ""
 
-footer:
-    enable: true
-    custom: ''
-    hugo: true
-    copyright: true
-    author: true
-    since: 2021
-    license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
+analytics:
+    enable: false
 
-# Section (all posts) page config
-section:
-    paginate: 20
-    dateFormat: "01-02"
-    rss: 10 # number of posts in RSS feed
+    google:
+        anonymizeIP: true
 
+compatibility:
+    polyfill: true
+    objectFit: true
+    
 list:
     paginate: 20
     dateFormat: "01-02"
     rss: 10
 
-social:
-    Github: wblondel
-    LinkedIn: wgblondel
-    Twitter: wgblondel
-    Instagram: wgblondel
-    Telegram: wblondel
-    Reddit: wblondel
-    Spotify: william78
-    Steam: wgblondel
-    #Skype: w.blondel
-    RSS: true
-    
 page:
     theme: classic
     hiddenFromHomePage: false
@@ -75,7 +42,6 @@ page:
     lightgallery: false
     ruby: true
     fraction: true
-    fontawesome: true
     linkToMarkdown: true
     rssFullText: false
     
@@ -91,13 +57,31 @@ page:
         Twitter: true
         Facebook: true
         Evernote: true
+
+search:
+    enable: true
+    type: "lunr"
+    contentLength: 4000
+    placeholder: ""
+    maxResultLength: 10
+    snippetLength: 30
+    highlightTag: "em"
+    absoluteURL: false
     
-compatibility:
-    polyfill: true
-    objectFit: true
+# Section (all posts) page config
+section:
+    paginate: 20
+    dateFormat: "01-02"
+    rss: 10 # number of posts in RSS feed
 
-analytics:
-    enable: false
-
-    google:
-        anonymizeIP: true
+social:
+    Github: wblondel
+    LinkedIn: wgblondel
+    Twitter: wgblondel
+    Instagram: wgblondel
+    Telegram: wblondel
+    Reddit: wblondel
+    Spotify: william78
+    Steam: wgblondel
+    #Skype: w.blondel
+    RSS: true
