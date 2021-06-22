@@ -25,7 +25,7 @@
             {{- range $pages.PageGroups -}}
                 <div class="group-title-year">{{ .Key }}</div>
                 {{- range .Pages.GroupByDate "January" }}
-                    <div class="group-title-month">{{- i18n .Key}}</div>
+                    <div class="group-title-month">{{- i18n .Key | default .Key }}</div>
                     {{- range .Pages -}}
                         <article class="archive-item">
                             <a href="{{ .RelPermalink }}" class="archive-item-link">
