@@ -38,7 +38,7 @@ jobs:
             ${{ runner.os }}-hugomod-
 
       - name: Build
-        run: hugo -e production
+        run: hugo -e production --minify
       
       - name: Push to server - Deploy
         uses: x-actions/gh-pages@release/v1
