@@ -13,6 +13,14 @@ tag:
 tags:
   other: "Tags"
 
+# Header
+mainNavigation:
+  other: "Menu principal"
+
+# posts/single.html
+comments:
+  other: "Commentaires"
+
 # === Dates translation ===
 # (hacky solution until Hugo supports dates i18n)
 

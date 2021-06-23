@@ -1,0 +1,9 @@
+# === Override theme translations for English
+
+# Header
+mainNavigation:
+  other: "Main menu"
+
+# posts/single.html
+comments:
+  other: "Comments"
