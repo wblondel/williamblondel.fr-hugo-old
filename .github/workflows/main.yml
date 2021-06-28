@@ -48,6 +48,3 @@ jobs:
           PUBLISH_REPO: https://${{ secrets.USERNAME }}:${{ secrets.PASSWORD }}@williamblondel.fr/plesk-git/williamblondel.git
           PUBLISH_BRANCH: master
           PUBLISH_DIR: ./public
-          
-
-      
